@@ -4,6 +4,7 @@ package prBanco;
  * @author Adri
  *
  */
+
 public class Banco {
 	
 	private int iban;
@@ -12,6 +13,22 @@ public class Banco {
 	public Banco(int iban, double saldo) {
 		this.iban = iban;
 		this.saldo = saldo;
+	}
+	/**
+	 * Metodo para establecer un nuevo IBAN
+	 *Recibe por parametro el nuevo valor
+	 *No devuelve nada. Establece ese valor en el atributo iban
+	 */
+	public void setIban (int nuevoIban) {
+		this.iban=nuevoIban;
+	}
+	/**
+	 * Metodo para establecer un nuevo saldo
+	 *Recibe por parametro el nuevo saldo
+	 *No devuelve nada. Establece el nuevo saldo en el atributo saldo
+	 */
+	public void setSaldo (double nuevoSaldo) {
+		this.saldo=nuevoSaldo;
 	}
 	
 }
