@@ -9,4 +9,13 @@ public class Cliente {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellidos() {
+		return apellidos;
+	}
+	
 }
