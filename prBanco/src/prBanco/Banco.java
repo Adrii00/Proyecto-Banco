@@ -30,5 +30,22 @@ public class Banco {
 	public void setSaldo (double nuevoSaldo) {
 		this.saldo=nuevoSaldo;
 	}
+	/**
+	 * Metodo para recibir el valor IBAN
+	 *Sin parametros
+	 *Devuelve el valor del atributo IBAN.
+	 */
+	public int getIban() {
+		return iban;
+	}
+	/**
+	 * Metodo para recibir el valor saldo
+	 *Sin parametros
+	 *Devuelve el valor del atributo saldo.
+	 */
+	public double getSaldo() {
+		return saldo;
+	}
+
 	
 }
