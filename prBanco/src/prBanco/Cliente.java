@@ -17,5 +17,21 @@ public class Cliente {
 	public String getApellidos() {
 		return apellidos;
 	}
+	/**
+	 * Metodo para establecer un nuevo nombre
+	 *Recibe por parametro el nuevo valor
+	 *No devuelve nada. Establece ese valor en el atributo nombre
+	 */
+	public void setNombre (String nuevoNombre) {
+		this.nombre=nuevoNombre;
+	}
+	/**
+	 * Metodo para establecer un nuevo apellido
+	 *Recibe por parametro el nuevo apellido
+	 *No devuelve nada. Establece el nuevo saldo en el atributo apellidos
+	 */
+	public void setSaldo (String apellidos) {
+		this.apellidos=apellidos;
+	}
 	
 }
