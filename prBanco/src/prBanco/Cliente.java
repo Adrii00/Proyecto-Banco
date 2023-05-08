@@ -33,5 +33,13 @@ public class Cliente {
 	public void setSaldo (String apellidos) {
 		this.apellidos=apellidos;
 	}
+	/**
+	 * Metodo para mostrar la informacion de un cliente
+	 *No recibe nada por parametro
+	 *Devuelve un String de formato nombre : valor , apellido : valor.
+	 */
+	public String toString() {
+		return "Nombre: "+this.nombre+". Apellidos: "+this.apellidos;
+	}
 	
 }
