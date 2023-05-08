@@ -46,6 +46,12 @@ public class Banco {
 	public double getSaldo() {
 		return saldo;
 	}
+	
+	@Override
+	public String toString() {
+		return "Banco [iban=" + iban + ", saldo=" + saldo + "]";
+	}
+	
 
 	
 }
